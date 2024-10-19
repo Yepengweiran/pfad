@@ -1,0 +1,54 @@
+Snake Game Instructions for use
+
+1. Install Pygame
+
+Before running a snake game, make sure you have the Pygame library installed in your environment. If it is not installed, you can install it with the following command:
+
+Install commands
+		pip install pygame
+
+2. Run the game
+
+Save the above code as a Python file, e.g. named snake_game.py. Then use the Python interpreter to run this file:
+		python snake_game.py
+
+3. Gameplay
+
+Once the game starts, you'll see a window with a white background with a green snake and a red food cube.
+ 	Use the keyboard's arrow keys (↑ ↓ ← →) to control the direction in which the snake moves.
+	Navigate the snake to eat the red food block. With each food eaten, the length of the snake increases.
+ 	If the snake touches its own body or the border of the window, the game will end with "Game Over" displayed.
+
+4. Game Controls
+
+Left Arrow (←): Move to the left
+ 	Right Arrow (→): Moves to the right
+ 	Up arrow key (↑): Moves up
+ 	Down arrow key (↓): Move down
+
+5. Restart and quit the game
+
+When Game Over is displayed:
+	Press the C key to restart the game.
+	Press the Q key to exit the game.
+
+6. Game Details
+
+Screen size: 600x400 pixels.
+	Block size: Both the snake and the food are 20x20 pixels in size.
+	Color: The snake is green, the food is red, and the background is white.
+
+7. System Requirements
+
+Python 3.x
+	Pygame library
+
+8. Precautions
+
+Make sure to run this game in an environment with graphics display capabilities, such as a PC's desktop operating system.
+	In some text-based environments, such as some remote servers, the game window may not display correctly.
+9. Close the game
+
+You can exit the game at any time by clicking the window's close button.
+	You can also use the in-game exit button (Q) to exit safely.
+
